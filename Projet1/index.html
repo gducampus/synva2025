@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <title>Projet 1</title>
     <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-cursor-teleport@1.6.0/dist/aframe-cursor-teleport-component.min.js"></script>
 </head>
 <body>
-    <a-scene>
+    <a-scene cursor="rayOrigin: mouse">
         <a-plane position="0 0 -4" rotation="-90 0 0" width="400" height="400" color="red"></a-plane>
         <a-box position="-1 0.5 -3" rotation="0 45 0" scale="3 1 1" color="#4CC3D9"></a-box>
         <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
         <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+    
+        <a-entity id="cameraRig" cursor-teleport="cameraRig: #cameraRig; cameraHead: #head">
+            <a-entity id="head" position="0 1.6 0" camera look-controls="reverseMouseDrag: true"></a-entity>
+        </a-entity>
     </a-scene>
+   
     
 </body>
 </html>
