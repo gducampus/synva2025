@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>objets 3D</title>
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+
+</head>
+<body>
+    <a-scene>
+        <a-assets>
+            <a-asset-item id="bird" src="ressources/bird/scene.gltf"></a-asset-item>
+            <a-asset-item id="castle" src="ressources/castle/scene.gltf"></a-asset-item>
+        </a-assets>
+        <a-entity gltf-model="#castle" position="0 -1 0"></a-entity>
+    </a-scene>
+    
+</body>
+</html>
+

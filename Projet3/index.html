@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Textures</title>
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <a-assets>
+            <img id="sky" src="images/clear-sunny-sky.jpg">
+            <img id="ground" src="images/ground.jpg">
+        </a-assets>
+        <a-sky src="#sky"></a-sky>
+        <a-plane 
+            rotation="-90 0 0"  
+            width="1000" 
+            height="1000" 
+            color="green"
+            material="color:#ffffff; src:#ground; repeat: 1000 1000"
+        ></a-plane>
+    </a-scene>
+</body>
+</html>
