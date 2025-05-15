@@ -1,0 +1,11 @@
+Model Information:
+* title:	black panther
+* source:	https://sketchfab.com/3d-models/black-panther-7fca11c89cca4362a525c891a8345112
+* author:	kenchoo (https://sketchfab.com/kenchoo)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "black panther" (https://sketchfab.com/3d-models/black-panther-7fca11c89cca4362a525c891a8345112) by kenchoo (https://sketchfab.com/kenchoo) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

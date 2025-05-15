@@ -1,0 +1,685 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2329,
+      "max": [
+        176.36033630371094,
+        158.3302459716797,
+        691.2731323242188
+      ],
+      "min": [
+        -199.50680541992188,
+        -165.2230224609375,
+        -18.200157165527344
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 27948,
+      "componentType": 5126,
+      "count": 2329,
+      "max": [
+        0.9987866878509521,
+        0.999247133731842,
+        0.9995914697647095
+      ],
+      "min": [
+        -0.9986762404441833,
+        -0.9972712397575378,
+        -0.9984976053237915
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2329,
+      "max": [
+        -0.0014600000577047467,
+        6.815199851989746
+      ],
+      "min": [
+        -0.9995099902153015,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 7869,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 55896,
+      "componentType": 5126,
+      "count": 700,
+      "max": [
+        245.55014038085938,
+        208.85177612304688,
+        766.0708618164063
+      ],
+      "min": [
+        -275.49005126953125,
+        -248.6707000732422,
+        116.11856842041016
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 64296,
+      "componentType": 5126,
+      "count": 700,
+      "max": [
+        0.998531699180603,
+        0.99745774269104,
+        0.9999527335166931
+      ],
+      "min": [
+        -0.9996368288993835,
+        -0.9998424649238586,
+        -0.8824439644813538
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 18632,
+      "componentType": 5126,
+      "count": 700,
+      "max": [
+        1.000100016593933,
+        -0.0
+      ],
+      "min": [
+        9.999999747378752e-05,
+        -1.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 31476,
+      "componentType": 5125,
+      "count": 1260,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 72696,
+      "componentType": 5126,
+      "count": 1200,
+      "max": [
+        256.59857177734375,
+        231.7412567138672,
+        783.5811157226563
+      ],
+      "min": [
+        -289.3899841308594,
+        -256.1012268066406,
+        148.1566925048828
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 87096,
+      "componentType": 5126,
+      "count": 1200,
+      "max": [
+        0.9992958903312683,
+        0.9960737228393555,
+        0.9998468160629272
+      ],
+      "min": [
+        -0.9998928904533386,
+        -0.9980210065841675,
+        -0.9851275682449341
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 24232,
+      "componentType": 5126,
+      "count": 1200,
+      "max": [
+        1.000100016593933,
+        -0.0
+      ],
+      "min": [
+        9.999999747378752e-05,
+        -1.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 36516,
+      "componentType": 5125,
+      "count": 2400,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 101496,
+      "componentType": 5126,
+      "count": 800,
+      "max": [
+        209.0375518798828,
+        180.9040985107422,
+        731.4666137695313
+      ],
+      "min": [
+        -188.93809509277344,
+        -194.5544891357422,
+        161.783203125
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 111096,
+      "componentType": 5126,
+      "count": 800,
+      "max": [
+        0.9998862147331238,
+        0.9884037971496582,
+        0.9998208284378052
+      ],
+      "min": [
+        -0.9856702089309692,
+        -0.9984413385391235,
+        -0.9284480214118958
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 33832,
+      "componentType": 5126,
+      "count": 800,
+      "max": [
+        1.000100016593933,
+        -0.0
+      ],
+      "min": [
+        9.999999747378752e-05,
+        -1.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 46116,
+      "componentType": 5125,
+      "count": 1200,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 120696,
+      "componentType": 5126,
+      "count": 480,
+      "max": [
+        209.8912811279297,
+        195.4060821533203,
+        731.5503540039063
+      ],
+      "min": [
+        -223.538818359375,
+        -195.9246063232422,
+        117.31481170654297
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 126456,
+      "componentType": 5126,
+      "count": 480,
+      "max": [
+        0.9971636533737183,
+        0.9985693693161011,
+        0.9967202544212341
+      ],
+      "min": [
+        -0.999334990978241,
+        -0.9912093281745911,
+        -0.9968839883804321
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 40232,
+      "componentType": 5126,
+      "count": 480,
+      "max": [
+        1.000100016593933,
+        -0.0
+      ],
+      "min": [
+        9.999999747378752e-05,
+        -1.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 50916,
+      "componentType": 5125,
+      "count": 720,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "JABAMI Production (https://sketchfab.com/JabamiProduction)",
+      "license": "SKETCHFAB Standard (https://sketchfab.com/licenses)",
+      "source": "https://sketchfab.com/3d-models/jabami-anime-tree-v1-1f4eef944c85475eb2be3b36be4b6e4d",
+      "title": "Jabami Anime Tree v1"
+    },
+    "generator": "Sketchfab-16.21.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 53796,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 44072,
+      "byteOffset": 53796,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 132216,
+      "byteOffset": 97868,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 230084,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "images": [
+    {
+      "uri": "textures/tronc_jabami_tree_mat.001_diffuse.png"
+    },
+    {
+      "uri": "textures/beauty_jabami_leave_02_mat.001_diffuse.png"
+    },
+    {
+      "uri": "textures/beauty_jabami_leave_00_mat.001_diffuse.png"
+    },
+    {
+      "uri": "textures/beauty_jabami_leave_03_mat.001_diffuse.png"
+    },
+    {
+      "uri": "textures/beauty_jabami_leave_01_mat.001_diffuse.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 0
+          },
+          "glossinessFactor": 0.0,
+          "specularFactor": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "name": "tronc_jabami_tree_mat.001"
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 1
+          },
+          "glossinessFactor": 0.0,
+          "specularFactor": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "name": "beauty_jabami_leave_02_mat.001"
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 2
+          },
+          "glossinessFactor": 0.0,
+          "specularFactor": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "name": "beauty_jabami_leave_00_mat.001"
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 3
+          },
+          "glossinessFactor": 1.0,
+          "specularFactor": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "name": "beauty_jabami_leave_03_mat.001"
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 4
+          },
+          "glossinessFactor": 0.0,
+          "specularFactor": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "name": "beauty_jabami_leave_01_mat.001"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "..\\..\\users\\hp-touch\\documents\\treeitsave\\texture\\tron_tree_02__tronc_jabami_tree_mat.001_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "..\\..\\users\\hp-touch\\documents\\treeitsave\\texture\\tron_tree_02__beauty_jabami_leave_02_mat.001_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "..\\..\\users\\hp-touch\\documents\\treeitsave\\texture\\tron_tree_02__beauty_jabami_leave_00_mat.001_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "..\\..\\users\\hp-touch\\documents\\treeitsave\\texture\\tron_tree_02__beauty_jabami_leave_03_mat.001_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "..\\..\\users\\hp-touch\\documents\\treeitsave\\texture\\tron_tree_02__beauty_jabami_leave_01_mat.001_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 17,
+            "POSITION": 16,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "animetree_jabami_01_mesh.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.6292067939183141e-07,
+        -0.9999999999999868,
+        0.0,
+        0.0,
+        0.9999999999999868,
+        -1.6292067939183141e-07,
+        0.0,
+        0.0,
+        0.0,
+        -2.2737367544323206e-13,
+        1.0
+      ],
+      "name": "..\\..\\users\\hp-touch\\documents\\treeitsave\\texture\\tron_tree_02_"
+    },
+    {
+      "mesh": 0,
+      "name": "..\\..\\users\\hp-touch\\documents\\treeitsave\\texture\\tron_tree_02__tronc_jabami_tree_mat.001_0"
+    },
+    {
+      "mesh": 1,
+      "name": "..\\..\\users\\hp-touch\\documents\\treeitsave\\texture\\tron_tree_02__beauty_jabami_leave_02_mat.001_0"
+    },
+    {
+      "mesh": 2,
+      "name": "..\\..\\users\\hp-touch\\documents\\treeitsave\\texture\\tron_tree_02__beauty_jabami_leave_00_mat.001_0"
+    },
+    {
+      "mesh": 3,
+      "name": "..\\..\\users\\hp-touch\\documents\\treeitsave\\texture\\tron_tree_02__beauty_jabami_leave_03_mat.001_0"
+    },
+    {
+      "mesh": 4,
+      "name": "..\\..\\users\\hp-touch\\documents\\treeitsave\\texture\\tron_tree_02__beauty_jabami_leave_01_mat.001_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    }
+  ]
+}

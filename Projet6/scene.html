@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCENE DE JEU</title>
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.5.4/dist/aframe-extras.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-cursor-teleport@1.6.0/dist/aframe-cursor-teleport-component.min.js"></script>
+
+    <style>
+             .popup {
+        display: none;
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: white;
+        border: 1px solid #ccc;
+        z-index: 1001;
+        width: 300px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+
+
+      .popup-close {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+
+
+      .overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 1000;
+      }
+
+    </style>
+    </style>
+</head>
+<body>
+ <div id="popup" class="popup">
+    <span id="popup-close" class="popup-close">&times;</span>
+    <p id="popup-text"></p>
+  </div>
+  <div id="instructions-popup" class="popup">
+    <span id="instructions-close" class="popup-close">&times;</span>
+    <p>
+      Bienvenue dans l'environnement VR !<br /><br />
+      🔹 Déplacez-vous en cliquant sur le sol (téléportation).<br />
+      🔹 Cliquez sur un animal pour découvrir sa description.<br />
+      🔹 Explorez librement l'espace et amusez-vous !
+    </p>
+
+  </div>
+  <div id="overlay" class="overlay"></div>
+    <a-scene cursor="rayOrigin: mouse">
+        <a-assets>
+            <img src="ressources/ground.jpg" id="ground">
+            <img src="ressources/clear-sunny-sky.jpg" id="sky">
+            <a-asset-item id="old_tree" src="ressources/old_tree/scene.gltf"></a-asset-item>
+            <a-asset-item id="palm" src="ressources/palm/scene.gltf"></a-asset-item>
+            <a-asset-item id="elephant" src="ressources/elephant/scene.gltf"></a-asset-item>
+            <a-asset-item id="girafe" src="ressources/girafe/scene.gltf"></a-asset-item>
+            <a-asset-item id="panther" src="ressources/black_panther/scene.gltf"></a-asset-item>
+        </a-assets>
+
+         <a-entity
+        id="cameraRig"
+        cursor-teleport="cameraRig: #cameraRig; cameraHead: #head; collisionEntities: .collision"
+      >
+        <a-entity id="head" position="0 1.6 0" camera look-controls="reverseMouseDrag: true">
+           <a-entity id="ui">
+              <a-text id="greeting-text" 
+              value="Bonjour visiteur"
+              font="https://cdn.aframe.io/fonts/Exo2Bold.fnt"
+              width="2.5"
+              align="left"
+              position="-1.6 0.7 -1.8"
+              geometry="primitive:plane; height:0.3; width:1.6"
+              material="opacity:0; transparent:true"
+              >
+
+              </a-text>
+             <a-entity position="1.6 0.7 -1.8">
+                <a-plane id="instructions-btn" color="#222" width="1" height="0.3" class="clickable">
+                  <a-text 
+                  value="Instructions"
+                  align="center"
+                  color="#ffffff"
+                  font="https://cdn.aframe.io/fonts/Exo2Bold.fnt"
+                  position="0 0 0.01"
+                  width="2"
+                  geometry="primitive:plane; height:0.3; width:1"
+                  material="opacity:0; transparent:true"
+                  >
+    
+                  </a-text>
+                </a-plane>
+             </a-entity>
+           </a-entity> 
+        </a-entity>
+      </a-entity>
+        <a-sky src="#sky"></a-sky>
+        <a-plane class="collision" material="color:#efefef; src:#ground; repeat: 2000 2000" position="0 0 0" rotation="-90 0 0" width="1000" height="1000"></a-plane>
+        <a-gltf-model src="#old_tree" position="0 0 12"></a-gltf-model>
+        <a-gltf-model src="#old_tree" position="0 0 -12"></a-gltf-model>
+        <a-gltf-model src="#old_tree" position="12 0 0"></a-gltf-model>
+        <a-gltf-model src="#old_tree" position="-12 0 0"></a-gltf-model>
+        <a-gltf-model src="#palm" position="-37 0 0.7"></a-gltf-model>
+        <a-gltf-model src="#palm" position="37 0 0.7"></a-gltf-model>
+        <a-gltf-model src="#palm" position="0 0 20"></a-gltf-model>
+
+        <a-gltf-model src="#girafe" animation-mixer position="2 0 -10">
+
+        </a-gltf-model>
+
+
+        <a-gltf-model 
+        src="#elephant" scale="5 5 5" animation-mixer position="-5 0 -10"
+        show-popup-on-click="name: Elephant; description:  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, asperiores sint quae iure quidem ut in praesentium. Saepe voluptatum sed itaque necessitatibus ipsa, iste possimus numquam minima voluptate deleniti repellendus.
+        ">
+
+        </a-gltf-model>
+
+        
+        <a-gltf-model 
+        src="#panther" scale="5 5 5" animation-mixer position="10 0 -10"
+        show-popup-on-click="name: Panthère; description:  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, asperiores sint quae iure quidem ut in praesentium. Saepe voluptatum sed itaque necessitatibus ipsa, iste possimus numquam minima voluptate deleniti repellendus.
+        ">
+
+        </a-gltf-model>
+
+    </a-scene>
+    <script>
+      // Afficher le nom de l'utilisateur
+      AFRAME.registerComponent('greeting', {
+        init: function () {
+          const prenom = localStorage.getItem('prenom') || "Visiteur";
+          const textEl = document.querySelector('#greeting-text'); 
+          textEl.setAttribute('value', `Bonjour ${prenom}`);
+        }
+      });
+      document.querySelector("#head").setAttribute("greeting", "")
+
+
+      // ouverture du popup des instructions
+      document.addEventListener('DOMContentLoaded', ()=>{
+       const btn = document.querySelector('#instructions-btn');
+       btn.addEventListener('click', () => {
+         document.getElementById('instructions-popup').style.display = "block";
+         document.getElementById('overlay').style.display = "block";
+       });
+      })
+      document.getElementById("instructions-close").addEventListener('click', () =>{
+        document.getElementById('instructions-popup').style.display = "none";
+        document.getElementById('overlay').style.display = "none";
+      });
+
+      AFRAME.registerComponent('show-popup-on-click', {
+        schema: {
+          description: {type:'string', default: 'description de animal'},
+          name: {type:'string', default: 'nom de animal'},
+        },
+        init: function () {
+          const data = this.data;
+          const popup = document.getElementById('popup');
+          const overlay = document.getElementById('overlay');
+          const popupText = document.getElementById('popup-text'); 
+          const popupClose = document.getElementById('popup-close');
+
+          const showPopup = () => {
+            popupText.innerHTML = `<strong>${data.name}</strong><br>${data.description}`;
+            popup.style.display = "block";
+            overlay.style.display = "block";
+          }
+
+          const hidePopup = () => {
+            popup.style.display = "none";
+            overlay.style.display = "none";
+          }
+
+          this.el.addEventListener('click', showPopup);
+          popupClose.addEventListener('click', hidePopup);
+          
+        }
+      } )
+
+
+    </script>
+</body>
+</html>
